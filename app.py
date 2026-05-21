@@ -71,7 +71,8 @@ input_data = [
     petal_length,
     petal_width,
 ]
-FLASK_URL = "http://127.0.0.1:5000/predict"
+# FLASK_URL = "http://127.0.0.1:5000/predict"
+FLASK_URL = "https://mlops-project-6h7m.onrender.com/"
 REQUEST_TIMEOUT = 30  # seconds
 
 try:
